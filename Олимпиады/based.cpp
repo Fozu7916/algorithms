@@ -14,14 +14,14 @@ int E = 0;
 int N = 0;
 int a = 0;
 
-in >> E;
-in >> N;
+std::cin >> E;
+std::cin >> N;
 
 int currentPoint = 0;
 std::vector<int> points;
 
 for(int i = 0; i < N; i++){
-    in >> a;
+    std::cin >> a;
     points.push_back(a);
 }
 
